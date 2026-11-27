@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#121212">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eFootball 3,000 / 5,000 Auto Clicker"
+        android:textColor="#FFD700"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="حالة الخدمة: غير مفعلة"
+        android:textColor="#FF5252"
+        android:textSize="18sp"
+        android:layout_marginBottom="28dp"/>
+
+    <Button
+        android:id="@+id/btnEnableService"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="تفعيل خدمة الوصول (Accessibility)"
+        android:textSize="16sp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="14dp"/>
+
+    <Button
+        android:id="@+id/btnToggleScan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="إيقاف الفحص مؤقتاً ⏸️"
+        android:textSize="16sp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="فحص سريع لـ 3,000 و 5,000 مع ضغط فوري على OK وإمكانية الإيقاف والتشغيل في أي وقت."
+        android:textColor="#CCCCCC"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

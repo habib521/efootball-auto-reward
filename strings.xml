@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eFootball Auto Reward</string>
+    <string name="service_desc">يقوم برصد 3,000 أو 5,000 والضغط على زر OK بسرعة تلقائياً</string>
+</resources>
